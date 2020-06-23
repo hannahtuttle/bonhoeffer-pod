@@ -5,7 +5,7 @@ import '../styles/header.scss'
 const Header = () => {
 
     return(
-        <div>
+        <div className='border'>
             <div className='triangle-topleft'></div>
             <header  > 
                 <h1>The Bonhoeffer Podcast</h1>

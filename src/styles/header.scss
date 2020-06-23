@@ -1,15 +1,32 @@
+.border {
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px solid #2d383d;
+    border-bottom: 5px solid #2d383d;
+    background: linear-gradient(-70deg, rgba(0, 0, 0, 0) 30%, #564f6f  30%), url('https://i.pinimg.com/originals/84/f4/e0/84f4e095630d4cea0d31946bb44f4b80.jpg');
+    // background: linear-gradient(-70deg, #564f6f 30%, rgba(0, 0, 0, 0) 30%), url('https://i.pinimg.com/originals/84/f4/e0/84f4e095630d4cea0d31946bb44f4b80.jpg');
+    
+    background-repeat: no-repeat;
+}
+
+// https://i.pinimg.com/originals/84/f4/e0/84f4e095630d4cea0d31946bb44f4b80.jpg
+
+header {
+margin-top: 12%;
+margin-bottom: 12%;
+}
+
 .triangle-topleft {
     width: 0;
     height: 0;
-    border-top: 200px solid red;
+    border-top: 200px solid #2d383d;
     border-right: 200px solid transparent;
   }
 
   .triangle-bottomright {
-    position: absolute;
-    right: 0px;
+    margin-top: 20%;
     width: 0;
     height: 0;
-    border-bottom: 200px solid red;
+    border-bottom: 200px solid #2d383d;
     border-left: 200px solid transparent;
   }
