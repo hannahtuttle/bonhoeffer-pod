@@ -1,3 +1,5 @@
+
+// the linear gradient on the header and the background image
 .border {
     display: flex;
     justify-content: space-between;
@@ -10,13 +12,12 @@
     background-position: right;
 }
 
-// https://i.pinimg.com/originals/84/f4/e0/84f4e095630d4cea0d31946bb44f4b80.jpg
-
 header {
 margin-top: 12%;
 margin-bottom: 12%;
 }
 
+//triangle shapes on the header
 .triangle-topleft {
     width: 0;
     height: 0;
